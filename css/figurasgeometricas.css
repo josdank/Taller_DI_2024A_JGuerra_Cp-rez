@@ -3,15 +3,18 @@ body {
 }
 
 .container {
-    margin: 80px;
-    width: 90%;
-    height: 400px;
-    max-width: 500px;
-    outline: 4px solid;
+
     display: grid;
 
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000;
 }
 
 
