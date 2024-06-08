@@ -39,8 +39,9 @@ section {
     grid-gap: 10px;
 }
 
+
 article {
-    flex: 1;
+    width: 60%;
     padding: 20px;
     background-color: #ffffff;
     margin-right: 10px;

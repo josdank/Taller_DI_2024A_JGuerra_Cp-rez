@@ -1,0 +1,46 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    margin: 80px;
+    width: 90%;
+    height: 400px;
+    max-width: 500px;
+    outline: 4px solid;
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+
+
+.square, .rectangle, .triangle, .circle {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Cuadrado */
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+}
+
+/* Rectángulo */
+.rectangle {
+    width: 150px;
+    height: 100px;
+    background-color: #2196F3;
+}
+
+
+
+/* Círculo */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+}
