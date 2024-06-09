@@ -1,4 +1,7 @@
-h1{text-align: center;color: rgb(49, 46, 46);}
+h1 {
+    text-align: center;
+    color: rgb(49, 46, 46);
+}
 
 .banner {
     background-color: black;
@@ -10,22 +13,63 @@ h1{text-align: center;color: rgb(49, 46, 46);}
     list-style-type: none;
     margin: 0;
     padding: 0;
+    align-items: center;
     justify-content: center;
     background-color: black;
 }
 .menuhorizontal li {
     margin: 0;
     padding: 0;
+    flex: 1;
 }
-.menuhorizontal li a {
+.menuhorizontal li a, .menuhorizontal li{
     display: block; 
     color: rgb(255, 255, 255); 
     text-align: center; 
     padding: 14px 20px; 
-    text-decoration: none; 
+    text-decoration: none;
+    border-radius: 25px; 
+    transition: background-color 0.3s, transform 0.3s;; 
 }
 .menuhorizontal li a:hover {
-    background-color: #346cb4; 
+    background-color: #282b2ef9;
+    transform: scale(1.05);
+    border-radius: 25px; 
+}
+.search-container {
+    margin-left: auto; 
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    margin-right: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.search-form input[type="text"]:focus {
+    border-color: #346cb4;
+}
+
+.search-form button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
 }
 
 .slider-frame {
