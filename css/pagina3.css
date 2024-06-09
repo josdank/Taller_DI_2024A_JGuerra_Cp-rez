@@ -29,7 +29,7 @@ h1{text-align: center;color: rgb(49, 46, 46);}
 }
 
 .slider-frame {
-	width: 1280px;
+	width: 1080px;
     height: auto;
 	margin:50px auto 0;
 	overflow: hidden;
@@ -39,6 +39,7 @@ h1{text-align: center;color: rgb(49, 46, 46);}
 	display: flex;
 	padding: 0;
 	width: 400%;
+    height: 580PX;
 	
 	animation: slide 20s infinite alternate ease-in-out;
 }
