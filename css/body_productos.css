@@ -1,0 +1,45 @@
+.banner {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.productos-container {
+    display: flex;
+    justify-content: space-between;
+}
+.productos-column, .noticias-column {
+    display: flex;
+    flex: 2;
+    padding: 20px;
+}
+
+.productos-column img {
+    width: 300px;
+    height: 50%;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.productos-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 2;
+    padding: 20px;
+}
+.ofertas {
+    background-color: rgba(212, 184, 245, 0.57);
+    padding: 15px;
+    width: 100px;
+    margin: 0 5px;
+    flex: 1;
+    align-self: flex-start;
+}
+.producto {
+    margin-bottom: 20px;
+}
+.noticias-column {
+    flex: 1;
+    padding: 20px;
+}
+.eventos {
+    margin-top: 20px;
+}
