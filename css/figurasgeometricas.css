@@ -15,35 +15,45 @@ body {
     padding: 10px;
     text-align: center;
     border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
-.square, .rectangle, .triangle, .circle {
+.square, .rectangle, .triangle, .circle, .triangle{
     display: inline-block;
     margin: 10px;
 }
 
 /* Cuadrado */
 .square {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 65px;
     background-color: #4CAF50;
 }
 
 /* Rectángulo */
 .rectangle {
-    width: 150px;
-    height: 100px;
+    width: 250px;
+    height: 90px;
     background-color: #2196F3;
 }
 
-
-
 /* Círculo */
 .circle {
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     background-color: #ffeb3b;
     border-radius: 50%;
+
+}
+
+.triangle {
+    width: 0;
+    height: 25;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 85px solid red;
 }
