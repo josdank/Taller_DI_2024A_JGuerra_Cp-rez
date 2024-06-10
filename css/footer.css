@@ -51,12 +51,20 @@ footer {
     filter: brightness(1.2);
 }
 
-
 .redes_icons{
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
+}
+.redes_icons{
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s, filter 0.3s;
+}
+.redes_icons img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
 }
 .redes_icons insta {
     border-radius: 180px; 
