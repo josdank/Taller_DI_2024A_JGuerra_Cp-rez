@@ -42,6 +42,24 @@ footer {
     align-items: center;
 }
 
+.redes_icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.redes_icons insta {
+    border-radius: 180px; 
+    overflow: hidden; 
+    width: 85px;
+    height: 85px; 
+}
+
+.redes_icons insta img {
+    width: 100%; 
+    height: auto; 
+}
+
 .footer-bottom {
     margin-top: 40px;
     text-align: center;
@@ -54,8 +72,8 @@ footer {
 
 .footer-column iframe{
     text-align: right;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 160px;
     display: block;
     margin: 0 auto;
 }
