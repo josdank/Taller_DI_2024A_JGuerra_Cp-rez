@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5px; /* Margen de 15px a cada lado */
+    margin: 0 5px; 
 }
 
 .logo {
     display: flex;
     width: 80px;
     border-radius: 180px;
-    margin: 5px; /* Espacio entre el logo y los bordes */
+    margin: 5px; 
     margin-bottom: 10px;
 }
 
@@ -128,39 +128,27 @@ h1 {
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
-
-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 40px;
-}
-.footer-container {
+.social-media-section {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.footer-column {
-    flex: 1;
-    margin: 0 20px;
-    min-width: 200px;
-}
-.footer-column h2 {
-    margin-bottom: 20px;
-}
-.footer-column p,
-.footer-column a {
-    margin: 5px 0;
-    color: #aaa;
-    text-decoration: none;
-}
-.footer-column a:hover {
-    color: #fff;
-}
-.footer-bottom {
-    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0; 
     text-align: center;
-    border-top: 1px solid #444;
-    padding-top: 20px;
-    font-size: 14px;
-    color: #aaa;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px; 
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
 }
