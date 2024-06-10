@@ -41,6 +41,16 @@ footer {
     gap: 20px;
     align-items: center;
 }
+.contact-icons{
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s, filter 0.3s;
+}
+.contact-icons img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
 
 .redes_icons{
     display: flex;
