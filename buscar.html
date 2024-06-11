@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Productos</title>
+    <link rel="stylesheet" href="css/pagina3.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/body_productos.css">
+</head>
+<body>
+    <div class="body2">
+        <li><img class="logo" src="Imagenes/logo.png" alt="logo"></li>
+        <h1>CARJOS TECHNOLOGIES</h1>
+        <li><img class="logo" src="Imagenes/logo.png" alt="logo"></li>
+    </div>
+    <ul class="menuhorizontal">
+        <li><a href="index3.html">Inicio</a></li>
+        <li><a href="conocenos.html">Conocenos</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="ubicanos.html">Ubícanos</a></li>
+        <li class="search-container">
+            <form class="search-form" action="buscar.html" method="get">
+                <input type="text" name="q" placeholder="Buscar..." required>
+                <button type="submit">Buscar</button>
+            </form>
+        </li>
+    </ul>
+
+    <h2 class="banner">Resultados de Búsqueda</h2>
+    <div class="resultados-busqueda">
+        <!-- Aquí irían los resultados de la búsqueda -->
+        <div class="producto">
+            <img src="ruta_imagen_producto1.jpg" alt="Producto 1">
+            <p>Nombre del Producto 1</p>
+            <p>Descripción breve del Producto 1</p>
+            <p>Precio del Producto 1</p>
+        </div>
+        <div class="producto">
+            <img src="ruta_imagen_producto2.jpg" alt="Producto 2">
+            <p>Nombre del Producto 2</p>
+            <p>Descripción breve del Producto 2</p>
+            <p>Precio del Producto 2</p>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <center>
+                <h2>Contacto</h2>
+                <div class="contact-icons">
+                    <a href="https://wa.me/5930964030442" target="_blank">
+                        <img src="Imagenes/whatsapp.png" alt="WhatsApp" style="width: 50px; height: 50px;">
+                    </a>
+                    <a href="mailto:contacto@ejemplo.com" target="_blank">
+                        <img src="Imagenes/gmail.png" alt="Gmail" style="width: 40px; height: 40px;">
+                    </a>
+                </div>
+            </center>
+        </div>
+        <div>
+            <section class="footer-column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8078884100423!2d-78.50431669999999!3d-0.1310218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58592fb4ebb65%3A0xf92bf089be1bcfbb!2spolitecnica%20nacional!5e0!3m2!1ses!2sec!4v1717384466262!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
+        <div class="footer-column">
+            <center>
+                <button onclick="window.open('quejas.html', '_blank')" class="complaint-button">Quejas y Reclamos</button>
+            </center>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Ejemplo. Todos los derechos reservados.
+    </div>
+</footer>
+</html>

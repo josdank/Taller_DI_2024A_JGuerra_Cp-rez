@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .productos-column, .noticias-column {
     display: flex;
     flex: 2;
@@ -36,10 +37,62 @@
 .producto {
     margin-bottom: 20px;
 }
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
 .noticias-column {
     flex: 1;
     padding: 20px;
 }
 .eventos {
     margin-top: 20px;
+}
+.about-us-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.about-us-image img {
+    border-radius: 25px; 
+    max-width: 350px;
+    max-height: 250px; 
+    height: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+/* Estilo para el contenedor padre */
+.producto {
+    position: relative; /* Asegura que el contenedor sea relativo para que los contenedores secundarios se posicionen en relación con él */
+    margin-bottom: 20px;
+}
+
+/* Estilo para la segunda imagen y la información */
+.producto-detalle {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Asegura que esté encima de la imagen principal */
+    width: 300px; /* Mismo ancho que la imagen principal */
+    height: auto; /* Altura automática */
+}
+
+.producto:hover .producto-detalle {
+    display: block;
+}
+
+/* Estilo adicional para la transición */
+.producto:hover img {
+    transform: scale(1.1); /* Hace la imagen más grande al pasar el ratón por encima */
 }
