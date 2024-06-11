@@ -10,9 +10,11 @@
 </head>
 <body>
     <div class="body2">
-        <li><img class="logo" src="Imagenes/logo.png" alt="logo"></li>
+        <li><a href="index3.html">
+            <img class="logo" src="Imagenes/logo.png" alt="logo"></li>
         <h1>CARJOS TECHNOLOGIES</h1>
-        <li><img class="logo" src="Imagenes/logo.png" alt="logo"></li>
+        <li>
+            <img class="logo" src="Imagenes/logo.png" alt="logo"></a></li>
     </div>
     <ul class="menuhorizontal">
         <li><a href="index3.html">Inicio</a></li>
@@ -29,19 +31,45 @@
 
     <h2 class="banner">Resultados de Búsqueda</h2>
     <div class="resultados-busqueda">
-        <!-- Aquí irían los resultados de la búsqueda -->
-        <div class="producto">
-            <img src="ruta_imagen_producto1.jpg" alt="Producto 1">
-            <p>Nombre del Producto 1</p>
-            <p>Descripción breve del Producto 1</p>
-            <p>Precio del Producto 1</p>
-        </div>
-        <div class="producto">
-            <img src="ruta_imagen_producto2.jpg" alt="Producto 2">
-            <p>Nombre del Producto 2</p>
-            <p>Descripción breve del Producto 2</p>
-            <p>Precio del Producto 2</p>
-        </div>
+        <center>
+            <div class="productos-container">
+                <div class="productos-column">
+                    <div class="producto">
+                        <input type="checkbox" id="producto1-checkbox">
+                        <label for="producto1-checkbox">
+                            <img src="Imagenes/producto1.jpg" alt="Procesador" style="width: 160px; height: 160px;">
+                            <p>Procesador Ryzen9 Serie 5000</p>
+                            <p>Gráfica Integrada</p>
+                            <p>$190</p>
+                        </label>
+                    </div>
+                    <div class="producto">
+                        <input type="checkbox" id="producto4-checkbox">
+                        <label for="producto4-checkbox">
+                            <img src="Imagenes/perifericos.png" alt="Periféricos">
+                            <p>PERIFERICOS</p>
+                        </label>
+                    </div>
+                    </div>
+                    <div class="producto">
+                        <input type="checkbox" id="producto3-checkbox">
+                        <label for="producto3-checkbox">
+                            <img src="Imagenes/mousepad.png" alt="Mousepad" style="width: 160px; height: 160px;">
+                            <p>Mousepad RGB con labrado de HALO</p>
+                            <p>$15 <span class="oferta">Oferta</span></p>
+                        </label>
+                    </div>
+                    <div class="producto">
+                        <input type="checkbox" id="producto12-checkbox">
+                        <label for="producto12-checkbox">
+                            <img src="Imagenes/audifonos.jpg" alt="Audifonos Klip Xtreme" style="width: 160px; height: 160px;">
+                            <p>Klip Xtreme Lite Blast Khs 659 Headset Audifonos Bluetooth</p>
+                            <p>$20 <span class="oferta">Oferta</span></p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </center>
     </div>
 
 </body>
